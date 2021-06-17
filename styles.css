@@ -1,0 +1,17 @@
+
+.flexbox {
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    display: flex;
+    align-content: space-between;
+}
+
+
+
