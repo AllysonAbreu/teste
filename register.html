@@ -5,23 +5,27 @@
     <head>
         <title>register</title>
         <meta charset="utf-8"> 
-        <link rel="stylesheet" type="text/css" href="styles.css">       
+        <link rel="stylesheet" type="text/css" href="register.css">       
     </head>
     <body>
+     <div class="formulario">
         <h1>Registrar participante</h1>
-       
         <form>
             <h4>Nome</h4>
-            <input type="text" placeholder=""> 
+            <input class="preencher" type="text" placeholder=""> 
             <h4>E-mail</h4>
-            <input type="text" placeholder=""> <br/>
-            <input type="submit" value="Cadastrar"> 
-            <input type="submit" value="Adicionar"> 
+            <input class="preencher" type="text" placeholder=""> <br/>
+            <input class="cadastro" type="submit" value="Cadastrar"> 
+            <input class="adicionar" type="submit" value="Adicionar"> 
         </form>
-        
-        <br/>
-        <a href="index.html">Volte à página principal.</a>
-        <br/>
-        <a href="hub.html">Ver participantes cadastrados</a>
+        <br/> 
+        <a href="index.html">
+            <button class="voltar">Voltar à página principal</button>
+            </a>
+
+            <a href="hub.html">
+               <button class="ver">Ver participantes cadastrados</button>
+            </a>
+    </div>
     </body>
 </html>
